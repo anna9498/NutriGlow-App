@@ -31,3 +31,6 @@ public class FirebaseConfig {
         }
     }
 }
+/*FirebaseConfig.java（雲端連線設定）
+負責讀取 serviceAccountKey.json 金鑰檔並初始化 Firebase Admin SDK
+它的作用就是幫你的 Spring Boot 與 Firebase 建構溝通橋樑，讓後端能夠對接 Firestore 資料庫*/

@@ -38,3 +38,6 @@ public class MealController {
         return "成功新增飲食紀錄！更新時間：" + collectionsApiFuture.get().getUpdateTime();
     }
 }
+/*MealController.java（API 控制器 Controller）
+負責對外提供 HTTP 網址端點（例如 /api/meals）
+當前端或測試工具傳送 GET 或 POST 請求過來時，由它接收並呼叫 Firestore 進行資料的讀取與寫入，最後回傳結果*/
